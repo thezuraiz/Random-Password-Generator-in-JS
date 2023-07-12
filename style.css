@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+    background: #dad8d8;
+    border-radius: 10px;
+    padding: 40px 70px;
+    text-align: center;
+}
+
+ .my-2{
+    margin: 20px auto;
+ }
+
+ .p-2{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(0, 166, 232);
+    font-weight: bold;
+    color: white;
+ }
+.w-100{
+    width: 100%;
+}
+ input , select{
+    padding: 5px;
+    width:auto;
+ }
